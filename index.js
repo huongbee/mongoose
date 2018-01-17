@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/mean1812', { useMongoClient: true });
+mongoose.connect('mongodb://localhost/mongoose1', { useMongoClient: true });
 mongoose.Promise = global.Promise;
 
 const catSchema = new mongoose.Schema({
